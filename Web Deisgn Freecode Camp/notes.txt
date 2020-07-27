@@ -1,0 +1,13 @@
+Key elements:
+(1) tag: <h> </h>
+(2) self-closing tag: <hr>
+(3) id: an unique id for an HTML element 
+(4) id attribute 
+(5) pseudo-class: a keyword that can be added to selectors a:hover
+(6) html comment: <!--  comment -->
+css comment: /* ... */
+(7) contrast: background-color vs color 
+(8) em, px: absolute size
+viewport, percentages: relative units 
+vw: relative to the viewport dimensions of a device
+%: relative to the size of the parent container element
