@@ -1,5 +1,2 @@
-# Self learning-
-## All sorts of self-learnt foundations for computer science.
-- Code in place: Stanford CS106A
-- HKUSTx: COMP102 Intro to Java 
+# Self learning - Web design
 - FreeCodeCamp: Responsive Web Design
