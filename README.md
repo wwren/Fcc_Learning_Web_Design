@@ -1,11 +1,11 @@
 # Learning_Fcc_Web_design-
-- Chapter one: Basic HTML & HTML5
-- Basic CSS
-- Applied Visual Design
-- Applied Accessibility 
-- CSS Flexbox
-- CSS Grid
-- Responsive Web Design Projects
+- Chap one: Basic HTML & HTML5
+- Chap two: Basic CSS
+- Chap three: Applied Visual Design
+- Chap four: Applied Accessibility 
+- Chap five: CSS Flexbox
+- Chap six: CSS Grid
+- Personal project: Responsive Web Design Projects
   * Tribute page
   * Survey form
   * Product landing page
