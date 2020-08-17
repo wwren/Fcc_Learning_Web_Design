@@ -5,7 +5,7 @@
 - Chap four: Applied Accessibility 
 - Chap five: CSS Flexbox
 - Chap six: CSS Grid
-- Personal project: Responsive Web Design Projects
+- Personal projects: Responsive Web Design Projects
   * Tribute page
   * Survey form
   * Product landing page
