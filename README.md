@@ -1,4 +1,4 @@
-# Learning_Fcc_Web_design-
+# freeCodeCamp_Web_design
 - Chap one: Basic HTML & HTML5
 - Chap two: Basic CSS
 - Chap three: Applied Visual Design
