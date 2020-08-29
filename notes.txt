@@ -1,0 +1,80 @@
+Key elements:
+(2) self-closing tag: <hr>, <img>, <input>
+
+(5) pseudo-class: a keyword that can be added to selectors a:hover
+(6) html comment: <!--  comment -->
+(7) css comment: /* ... */
+(7) contrast: background-color vs color 
+(8) em, px: absolute size
+viewport, percentages: relative units 
+vw: relative to the viewport dimensions of a device
+%: relative to the size of the parent container element
+
+(9)html5:  main, header, footer, nav, video, article, section which can help SEO
+(10) <img src="" alt> 
+(11) add external pages with anchor elements <a href=""></a>
+(12) link to internal section of a page with anchor elements: <a href="#contacts" target="_blank"></a>
+<h2 id=""> </a>
+(13) nest image inside a link <a href=""><img scr=""></img></a>
+
+web form
+input, textarea, select
+input type: text, radio, checkbox, range
+value and name form data will include the line 
+<input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor 
+when it is submitted, server receive: indoor-outdoor = outdoor
+ 
+its own tags: textarea, button 
+(16) <input type="text" placeholder="text displayed before user has inputted anything"> 
+(17) actually submit data to a server 
+<form action="to the web link where you want the data to go"> </form>
+(18) submit button <button type="submit"> </button>
+(19) must fill out this part 
+<input type="text required>
+(20) radio group:
+- all have same name 
+- best to have a for on lable and a value of id attribute of the input element 
+- each radio will have its own label tag 
+<label for="indoor"> Indoor 
+</label>
+<input id="indoor" type="radio" name="indoor-outdoor">
+(21) checkbox has more than one answer
+to give it a default
+<input type="radio" name="test-name" checked>
+(22) dropdown
+<select id=""> <option value="">***</option>
+
+general structure:
+<head>
+metadata elements: link, meta, title, style
+</head>
+<body>
+</body>
+
+
+(23) another css styling method 
+[type='radio'] {
+  margin: 20px 0px 20px 0px;
+}
+
+(24) css prioritise:
+- if both class style, coming later get prioritised
+- id always prioritised over class
+- inline style is preferred over id style
+<h1 style="color: green;">
+- override all other styles by using important (put it in class)
+color: red !important;
+
+(25) css variable: 
+--penguin-skin: grey;
+
+(26) navbar: <nav> </nav> 
+look into: "Lock an Element to the Browser Window with Fixed Positioning"
+
+
+
+
+
+
+
+
