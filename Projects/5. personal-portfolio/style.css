@@ -1,0 +1,72 @@
+body{text-align: center;
+font-size: 34px;
+}
+
+h1 {border-bottom: 3px solid;
+display: inline;
+text-align: center;}
+
+#navbar {
+  position: fixed;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-column-gap: 10px;
+  /* padding-left: 60%;*/
+  height: 40px;
+  top: 0px;
+  font-size: 20px;
+background-color: #C3073F;
+width: 100vw;}
+
+#navbar a{text-decoration: none;
+color: white;}
+
+#navbar a:hover {font-size: 25px;}
+
+#welcome-section{
+display: table;
+width: 100vw;
+height: 100vh;
+text-align: center;
+background-color: #1A1A1D;
+}
+
+#welcome-section h1, p{color: white;}
+#child {display: table-cell;
+vertical-align: middle;}
+
+#projects {background-color: #C5CBE3;
+padding-bottom: 50px;
+width: 100vw;}
+
+#projects h1 {color: #950740;
+  border-bottom: 3px solid #1A1A1D;}
+.project-container{display: grid;
+padding-top: 40px;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-column-gap: 10px;
+grid-row-gap: 40px;
+}
+
+img{ width: 60%;
+height: auto;
+/* background-size: cover;*/}
+
+#contact {background-color: #1A1A1D;
+width: 100vw;}
+
+#contact h1 {color: white;}
+.contact-container{display: inline-grid;
+grid-template-columns: auto auto auto;
+grid-auto-flow: column;
+grid-column-gap: 25px;
+text-align: center;
+}
+
+.contact-container a{text-decoration: none;
+color: white;}
+
+.contact-container a:hover{color: #C3073F;}
+
+@media (max-width: 100px) {body {font-size: 20px;}}
