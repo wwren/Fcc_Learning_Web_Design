@@ -1,0 +1,81 @@
+body {background-color: #82CAFA;
+font-family: Lato;}
+
+#header{width: 100%;
+display: flex;
+grid-template-columns: 40% auto;
+grid-column-gap: 10px;
+background-color: #82CAFA;
+position: fixed;
+top: 0px;}
+
+main {padding: 100px;}
+#nav-bar{width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-column-gap: 2px;}
+
+.nav-link {padding: 30px;
+color: white;}
+
+.nav-link:hover {font-size: 18px;}
+
+a {text-decoration: none;}
+
+iframe{width: 450px;
+height: 280px;}
+
+.video-middle {text-align: center;
+vertical-align: middle;}
+
+.container-features{width: 100%;
+display: flex;
+grid-template-columns: 1fr 1fr 1fr;
+grid-column-gap: 30px;}
+
+#features {padding-top: 50px;}
+
+h2, h3, h4 {text-align: center;}
+
+#price{ padding: 50px;}
+
+.container-price{width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-column-gap: 30px;}
+
+.box{border-style: groove;
+background: #BCC6CC;
+text-align: center;
+border-radius: 10px;
+}
+
+.package{font-size: 105x;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pri {font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.unit {
+  font-weight: 100;
+}
+
+#sign-up {text-align: center;}
+
+#email {height: 20px;
+width: 6cm;
+border-radius: 10px;}
+
+#submit {height: 50px;
+width: 2cm;
+border-radius: 10px;
+background-color: #82CAFA;
+color: white;
+margin: 10px;}
+
+
+@media (max-width: 100px) {body {font-size: 20px;}}

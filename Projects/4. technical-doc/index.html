@@ -1,0 +1,136 @@
+<head>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+
+<body>
+<nav id="navbar">
+  <header><h2> Java Document</h2></header>
+  <a href="#Introduction" class="nav-link">Introduction</a><br>
+   <a href="#Data_types" class="nav-link">Data types</a><br>
+   <a href="#If_else_statement" class="nav-link">If else statement</a><br>
+   <a href="#Switch_statement" class="nav-link">Switch statement</a><br>
+   <a href="#While_loop" class="nav-link">While loop</a><br>
+   <a href="#For_loop" class="nav-link">For loop</a>
+  <a href="#reference" class="nav-link">Reference</a>
+</nav>
+
+
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header><h2>Introduction</h2></header>
+    <p>Java is a programming language.</p>
+    <p>Java is used to develop mobile apps, web apps, desktop apps, games and much more.</p>
+    <h3>Why use Java </h3>
+    <ul>
+      <li>Java works on differnet platforms (Windows, Mac, Linux, Raspbery PI, etc.).</li>
+      <li>It is open-source and free.</li>
+      <li>It has a huge community support. </li>
+      <li>Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs.</li>
+      <li>As Java is close to <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">C++</a> and <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank">C# </a>, it makes it easy for programmers to switch to Java or vice versa.
+    </ul>
+    <h3> Hello world</h3>
+    <p> In Java, every application begins with a class name, and that class must match the filename. </p>
+    <p> Let's create our first Java file, called MyClass.java. </p>
+    <p> The file contains a "Hello World" message, which is written with the following code: </p>  
+    <pre><code> 
+        MyClass.Java
+        public class MyClass{
+          public static void main(String[] args){
+            System.out.println("Hello wWorld");
+            }
+          }
+      </code></pre>
+    </section>
+  
+      <section class="main-section" id="Data_types">
+    <header><h2>Data types</h2></header>
+    <p>Data types are divided into two groups: 
+        <ul>
+          <li><p>A <b>primitive</b> data types specifies the size and type of variable values, and it has no additional methods.</p> <p>The eight primitive data types include <code>byte</code>, <code>short</code>, <code>int</code>, <code>long</code>, <code>float</code>, <code>double</code>, <code>boolean</code> and <code>char</code>.</p></li>
+          <li><b>Non-primitive</b> data types are called reference types because they refer to objects, including <code>String</code>, <code> Arrays</code> and <code>Classes.</code>         
+        </ul>
+        The main difference between <b>primitive</b> and <b>non-primitive </b>data types are: 
+        <ul>
+          <li>Primitive types are predefined in Java. Non-primitive types are created by the programmer (except for <code>String</code>).</li>
+         <li>Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.</li>
+          <li>A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.</li>      
+        </ul>
+        </p>
+    </section> 
+      <section class="main-section" id="If_else_statement">
+    <header><h2>If else statement</h2></header>
+        <p>Use <code>if</code> to specify a block of code to be executed, if a specified condition is <code>true</code>.</p>
+   <p>Use <code>else</code> to specify a block of code to be executed if a specified condition is <code>false</code>.</p>
+        <p>Use <code>else if</code> to specify a new condition if the first condition is <code>false</code>.</p>
+        <pre><code>
+        int time=22;
+        if (time<10) {
+          System.out.println("Good morning.");}
+        else if (time<20) {
+          System.out.println("Good day.");}
+        else {
+          System.out.println("Good evening.");}
+ </code></pre>
+    </section>
+  
+     <section class="main-section" id="Switch_statement">
+    <header><h2>Switch statement</h2></header>
+       <p>Use <code>switch</code> statement to select one of many code blocks to be executed.</p>
+       <p>When Java reaches a <code>break</code> keyword, it breaks out of the switch block.</p>
+       <p>The <code>default</code>keyword specifies some code to run if there is no case match.
+       <pre><code>
+       switch(expression){
+        case x:
+          //code block
+          break;
+        case y:
+          //code block
+          break;
+         default:
+          //code block         
+       }
+  </code></pre>
+     </section>  
+    <section class="main-section" id="While_loop">
+    <header><h2>While loop</h2></header>
+      <p>The <code>while</code> loops through a block of code as long as a specified condition is <code>true</code></p>
+      <pre><code>
+      while (condition){
+      // code lock to be executed
+      }</code></pre>
+      <p>The <code>do/while</code> loop is a variant of the <code>while</code>. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loopas as long as the condition is true.</p>
+      <pre><code>
+      do {
+      // code block to be executed
+      }
+      while (condition);
+      </code></pre>
+    </section>
+  
+   <section class="main-section" id="For_loop">
+    <header><h2>For loop</h2></header>
+    <p>When you know exactly how many times you want to loop through a block of code, use the <code>for</code> loop instead of a <code>while</code> loop:</p>
+     <pre><code>
+     for (statement 1; statement 2; statement 3){
+      //code block to be executed
+     }</code></pre>
+     <p><b>Statement 1</b> is executed (one time) before the execution of the code block.</p>
+     <p><b>Statement 2</b> defines the condition for the executing the code block.</p>
+     <p><b>Statement 3</b> is executed (every time) after the code block has been executed. </p>
+     <p>See example:</p>
+     <pre><code>
+     for (int i=0; i<5; i++){
+      System.out.println(i);
+     }
+     </code></pre>
+    </section>
+     <section class="main-section" id="reference">
+       <header><h2>Reference</h2></header>
+       <p>All the document in this page is taken from <a href="https://www.w3schools.com/java/default.asp">w3schools.com</a></p>
+  
+<footer> 
+ <hr>
+  Coded by <a href="https://codepen.io/wwren" target="_blank"> wwren 
+  </a> </footer>     
+</main>
+</body>

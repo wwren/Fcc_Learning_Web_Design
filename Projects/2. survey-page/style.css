@@ -1,0 +1,38 @@
+* {font-family: Lobster, sans-serif;}
+body {background-image: url("https://images.dailyhive.com/vancitybuzz/uploads/2014/06/smile-is-shortest-distance-1920x1200-900x562.jpg");
+background-size: cover;
+overflow: scroll;
+}
+
+ #name {border-radius: 10px;
+width: 200px;
+height: 20px;
+}
+
+ #email {border-radius: 10px;
+width: 200px;
+height: 20px;
+}
+
+ #number {border-radius: 10px;
+width: 200px;
+height: 20px;
+}
+
+input:required:invalid{
+ content:"HTML5 validation error";
+}
+
+#dropdown {border-radius: 10px;
+width: 220px;
+height: 20px;
+}
+
+#dropdown:focus option:first-of-type{
+  display: none;
+}
+
+#textarea {border-radius: 10px;
+}
+
+footer{font-size: 14px;}
