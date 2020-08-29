@@ -11,3 +11,5 @@
   * Product landing page
   * Technical document page
   * Personal Portfolio webpage 
+  
+  (To learn more about my personal projects, please visit my [CodePen profile](https://codepen.io/wwren))
